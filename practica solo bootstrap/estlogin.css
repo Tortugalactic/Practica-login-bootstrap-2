@@ -28,7 +28,7 @@ body {
 
 /*Columna contenedora del banner y peso derecho; tamaño 8/12*/
 .col-sm-8 {
-   /* background-color: #19BCEE; 
+    /* background-color: #19BCEE; 
     border: black solid 2px; */
     border-radius: 18px;
     display: flex;
@@ -40,7 +40,7 @@ body {
 .col-sm-8 img {
     margin-top: 0%;
     border-radius: 8px;
-   /* width: 60%;
+    /* width: 60%;
     height: 80%;*/
     object-fit: cover;
 }
@@ -61,7 +61,7 @@ body {
 /*Bienvenido!*/
 h1 {
     font-family: 'Concert One', cursive;
-   padding: 4%;
+    padding: 4%;
 
 }
 
@@ -75,9 +75,9 @@ h1 {
 
 .alt-login {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: space-evenly;
-    
+
 }
 
 .form-label {
@@ -99,6 +99,19 @@ h1 {
     text-align: right;
 }
 
+.p2 .cont {
+    margin-top: 20%;
+    %
+}
+
+.secc-botones. {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: ;
+}
+
+/*MEDIA QUERY*/
 @media screen and (max-width:768px) {
     .col-sm-8 {
         display: none;
@@ -119,15 +132,4 @@ h1 {
         --bs-gutter-x: 3.5rem !important;
 
     }
-}
-
-.p2 .cont{
-    margin-top: 20%;%
-}
-
-.secc-botones. {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: ;
 }
