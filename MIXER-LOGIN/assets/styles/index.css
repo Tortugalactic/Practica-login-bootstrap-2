@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  background-color: rgb(128, 197, 209);
+  color: white;
+}
+
+#menu a,
+button {
+  font-size: 18px !important;
+  font-weight: 600;
+}
+
+#menu a {
+  color: #001C4E 
+}
+span {
+  color: #001C4E 
+}
+.container .header{
+ height: 50px;
+ width: 60px;
+}
+.carousel-item img{
+ height: 72vh;
+}
+
+
+.carousel-inner {
+  max-height: 80vh!important;
+}
+footer{
+  color: #001C4E 
+}
+
+@media screen and (max-width:810px) {
+
+  #carousel{
+    display: none;
+  }
+  
+}
