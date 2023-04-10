@@ -4,27 +4,24 @@ body{
     color: #001C4E;
     font-size: 25px;
     margin-top: 100px;
-    background-color: rgb(155, 172, 205);
+    background-image: url(../img/fond1.png);
 }
 
 
 .principalcontainer {
     height: 550px;
     width: 50%;
-    background-color: rgb(194, 194, 230);
+    background-color: #ffffff;
     box-shadow: 0px 0px 12px black;
     text-align: center;
+    border-radius: 18px;
+    border: 1px solid #ffffff;
 }
 
 .btn-class{
     width: 200px;
 }
-.btn-class:hover{
-    background-color: #6f8ec5;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0px 0px 8px black;
-}
+
 @media screen and (max-width:810px) {
     body{
         font-family: 'Montserrat', sans-serif;

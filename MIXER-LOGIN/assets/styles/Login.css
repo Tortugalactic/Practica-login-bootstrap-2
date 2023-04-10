@@ -1,152 +1,148 @@
 body {
-    background-image: url(./assets/img/fond1.png);
-    position: relative;
-    padding-top: 2%;
+  background-image: url(../img/fond1.png);
+  position: relative;
+  padding-top: 2%;
 }
 
 /*recuadro principal que contiene a los demas */
 .row {
-    height: 90%;
-    border-radius: 18px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
-    margin: 0px;
-    padding: 0;
-    
+  height: 90%;
+  border-radius: 18px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0;
 }
 
 /*Columna contenedora de logo y login; tamaño 4/12*/
 .col-sm-4 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-top: 0;
 }
 
 /*Columna contenedora del banner y peso derecho; tamaño 8/12*/
 .col-sm-8 {
-    /* background-color: #19BCEE; 
+  /* background-color: #19BCEE; 
     border: black solid 2px; */
-    border-radius: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 /*Imagen banner*/
 .col-sm-8 img {
-    margin-top: 0%;
-    border-radius: 8px;
-    /* width: 60%;
+  margin-top: 0%;
+  border-radius: 8px;
+  /* width: 60%;
     height: 80%;*/
-    object-fit: cover;
+  object-fit: cover;
 }
-
 
 /*Contenedores del formulario de log-in*/
 .mb-4 {
-
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    flex-shrink: initial;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-shrink: initial;
 }
 
 /*Bienvenido!*/
 h1 {
-    font-family: 'Concert One', cursive;
-    color: #001C4E !important; 
-    padding: 4%;
-
+  font-family: 'Concert One', cursive;
+  color: #001c4e !important;
+  padding: 4%;
 }
 
 .contenedor-login {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0px;
-    /* background-color: rgba(133, 133, 163, 0.204);*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+  /* background-color: rgba(133, 133, 163, 0.204);*/
 }
 
 .registrate {
-    font-family: 'Roboto', sans-serif;
-    font-size: .6em;
-    text-align: right;
-    padding-top: 2%;
-    margin-bottom: 9%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.6em;
+  text-align: right;
+  padding-top: 2%;
+  margin-bottom: 9%;
 }
 
 .recuerdame {
-    font-family: 'Roboto', sans-serif;
-    font-size: .8em;
-    text-align: left;
-    padding-top: 2%;
-    margin-bottom: 9%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  text-align: left;
+  padding-top: 2%;
+  margin-bottom: 9%;
 }
 
 .alt-login {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .form-label {
-    font-family: 'Roboto', sans-serif;
-    font-size: smaller;
+  font-family: 'Roboto', sans-serif;
+  font-size: smaller;
 }
 
 .texto-foot {
-    padding-top: 10%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 7pt;
-    display: flex;
-   
-    justify-content: right;
-    flex-wrap: wrap;
+  padding-top: 10%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 7pt;
+  display: flex;
+
+  justify-content: right;
+  flex-wrap: wrap;
 }
 
 .form-text {
-    text-align: right;
+  text-align: right;
 }
 
 .p2 .cont {
-    margin-top: 20%;
-    %
+  margin-top: 20%;
 }
 
 .secc-botones. {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
+.mensajeError {
+  color: #001c4e;
+  font-weight: 500;
+}
 
 /*MEDIA QUERY*/
-@media screen and (max-width:768px) {
-    .col-sm-8 {
-        display: none;
-    }
+@media screen and (max-width: 768px) {
+  .col-sm-8 {
+    display: none;
+  }
 
-    .col-sm-4 {
-        flex: 0 0 auto;
-        width: 100% !important;
-    }
+  .col-sm-4 {
+    flex: 0 0 auto;
+    width: 100% !important;
+  }
 
-    .container,
-    .container-fluid,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl,
-    .container-xxl {
-        --bs-gutter-x: 3.5rem !important;
-
-    }
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    --bs-gutter-x: 3.5rem !important;
+  }
 }
