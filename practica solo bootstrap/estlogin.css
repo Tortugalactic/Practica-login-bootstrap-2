@@ -1,8 +1,7 @@
 body {
     background-image: url(./assets/img/fond1.png);
     position: relative;
-    padding: 1%;
-    margin-top: 0px;
+    padding-top: 2%;
 }
 
 /*recuadro principal que contiene a los demas */
@@ -13,6 +12,7 @@ body {
     border: 1px solid rgb(255, 255, 255);
     margin: 0px;
     padding: 0;
+    
 }
 
 /*Columna contenedora de logo y login; tamaño 4/12*/
@@ -37,6 +37,7 @@ body {
     flex-wrap: nowrap;
 }
 
+/*Imagen banner*/
 .col-sm-8 img {
     margin-top: 0%;
     border-radius: 8px;
@@ -44,8 +45,6 @@ body {
     height: 80%;*/
     object-fit: cover;
 }
-
-
 
 
 /*Contenedores del formulario de log-in*/
@@ -61,6 +60,7 @@ body {
 /*Bienvenido!*/
 h1 {
     font-family: 'Concert One', cursive;
+    color: #001C4E !important; 
     padding: 4%;
 
 }
@@ -71,6 +71,22 @@ h1 {
     justify-content: space-between;
     padding: 0px;
     /* background-color: rgba(133, 133, 163, 0.204);*/
+}
+
+.registrate {
+    font-family: 'Roboto', sans-serif;
+    font-size: .6em;
+    text-align: right;
+    padding-top: 2%;
+    margin-bottom: 9%;
+}
+
+.recuerdame {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8em;
+    text-align: left;
+    padding-top: 2%;
+    margin-bottom: 9%;
 }
 
 .alt-login {
@@ -86,11 +102,11 @@ h1 {
 }
 
 .texto-foot {
-    padding: 13%;
+    padding-top: 10%;
     font-family: 'Roboto', sans-serif;
     font-size: 7pt;
     display: flex;
-    flex-direction: column-reverse;
+   
     justify-content: right;
     flex-wrap: wrap;
 }
@@ -110,6 +126,7 @@ h1 {
     justify-content: space-around;
     padding-top: ;
 }
+
 
 /*MEDIA QUERY*/
 @media screen and (max-width:768px) {
